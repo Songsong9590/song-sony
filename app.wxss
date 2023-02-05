@@ -1,0 +1,41 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+.button-text{
+  width: 80%;
+  margin: 5% 10%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #252531;
+}
+.button-active {
+  background: #F5CE75;
+}
+.button-normal {
+  background: white;
+  border:1px solid #F5CE75;
+}
+.normal-text {
+  width: 94px;
+  height: 23px;
+  font-size: 15px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #777777;
+}
+text {
+  font-size: 15px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}

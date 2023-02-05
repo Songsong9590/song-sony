@@ -1,0 +1,66 @@
+{
+  "pages":[   
+    "pages/index/index",
+    "pages/work/work",
+    "pages/sales/count",
+    "pages/update_password/update_password",
+    "pages/sales/list",
+    "pages/sales/save",
+    "pages/message/message",
+    "pages/employee/store",
+    "pages/login/login",
+    "pages/employee/store_save",
+    "pages/employee/store_update",
+    "pages/sales/sales_info",
+    "pages/employee/info",
+    "pages/product/list",
+    "pages/person/person",
+    "pages/employee/list",
+    "pages/stock/stock",
+    "pages/stock/info",
+    "pages/stock/list",
+    "pages/stock/save",
+    "pages/me/me",
+    "pages/forget/forget",
+    "pages/logs/logs",
+    "pages/sales/update",
+    "pages/total_stock/info",
+    "pages/total_stock/save",
+    "pages/policy/index",
+    "pages/total_stock/stock",
+    "pages/zdstock/list",
+    "pages/index/content",
+    "pages/tasks/list",
+    "pages/tasks/save",
+    "pages/tasks/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#000",
+    "selectedColor": "#F5CE75",
+    "list": [{
+        "pagePath": "pages/work/work",
+        "iconPath": "pages/images/common/work.png",
+        "selectedIconPath": "pages/images/common/work-selected.png",
+        "text": "首页"
+      },{
+        "pagePath": "pages/message/message",
+        "iconPath": "pages/images/common/message.png",
+        "selectedIconPath": "pages/images/common/message-selected.png",
+        "text": "订单"
+      },{
+        "pagePath": "pages/me/me",
+        "iconPath": "pages/images/common/me.png",
+        "selectedIconPath": "pages/images/common/me-selected.png",
+        "text": "我的"
+      }]
+  }
+}
